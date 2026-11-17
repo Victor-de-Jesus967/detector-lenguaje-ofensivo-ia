@@ -9,8 +9,6 @@ results/*.json
 results/*.png
 # Para desplegar se pueden incluir archivos joblib generados localmente,
 # previa comprobación de origen/seguridad y tamaño:
-!models/detector.joblib
-!models/detector_regional.joblib
 !results/metricas.json
 !results/metricas_regionales.json
 !results/matriz_confusion.png
