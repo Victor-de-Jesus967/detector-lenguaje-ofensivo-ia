@@ -1,0 +1,64 @@
+{
+  "dataset": "cardiffnlp/tweeteval — offensive (idioma inglés)",
+  "split_sizes": {
+    "train": 11916,
+    "validation": 1324,
+    "test": 860
+  },
+  "best_params": {
+    "classifier__C": 2.0,
+    "tfidf__min_df": 2
+  },
+  "cross_validation_macro_f1": 0.7008579053715295,
+  "validation_macro_f1": 0.7052573161925844,
+  "test": {
+    "accuracy": 0.7755813953488372,
+    "precision_macro": 0.722751353479038,
+    "recall_macro": 0.7319892473118279,
+    "f1_macro": 0.726930676454475,
+    "f1_offensive": 0.6116700201207244,
+    "report": {
+      "No ofensivo": {
+        "precision": 0.8540630182421227,
+        "recall": 0.8306451612903226,
+        "f1-score": 0.8421913327882257,
+        "support": 620.0
+      },
+      "Ofensivo": {
+        "precision": 0.5914396887159533,
+        "recall": 0.6333333333333333,
+        "f1-score": 0.6116700201207244,
+        "support": 240.0
+      },
+      "accuracy": 0.7755813953488372,
+      "macro avg": {
+        "precision": 0.722751353479038,
+        "recall": 0.7319892473118279,
+        "f1-score": 0.726930676454475,
+        "support": 860.0
+      },
+      "weighted avg": {
+        "precision": 0.7807727867464475,
+        "recall": 0.7755813953488372,
+        "f1-score": 0.7778598036717137,
+        "support": 860.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        515,
+        105
+      ],
+      [
+        88,
+        152
+      ]
+    ]
+  },
+  "training_seconds": 10.148,
+  "latency_ms_per_text_cpu": {
+    "median": 0.037498000001505716,
+    "p95": 0.04344489998766221,
+    "batch_size": 100
+  }
+}
