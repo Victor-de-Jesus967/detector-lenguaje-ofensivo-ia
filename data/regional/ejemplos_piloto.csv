@@ -1,0 +1,81 @@
+texto,etiqueta,region_contextual,contexto,particion,origen
+"Qué onda, cabrón, cuánto tiempo sin verte",0,general,amistoso,train,ejemplo_sintetico_redactado
+Ese platillo está bien chingón,0,general,elogio,train,ejemplo_sintetico_redactado
+"No hagas iris, todo se va a resolver",0,veracruz,coloquial,train,ejemplo_sintetico_redactado
+"¡Contra!, se me hizo tarde",0,tabasco,exclamación,train,ejemplo_sintetico_redactado
+Hoy compré guineo para desayunar,0,tabasco,neutro,train,ejemplo_sintetico_redactado
+"Oye compa, échame la mano con esta tarea",0,general,amistoso,train,ejemplo_sintetico_redactado
+No estoy de acuerdo con tu propuesta,0,general,desacuerdo,train,ejemplo_sintetico_redactado
+Esa idea me parece muy interesante,0,general,elogio,train,ejemplo_sintetico_redactado
+"Chale, se me fue el camión",0,general,exclamación,train,ejemplo_sintetico_redactado
+Qué chido quedó tu proyecto,0,general,elogio,train,ejemplo_sintetico_redactado
+Está cabrón terminar el trabajo tan rápido,0,general,dificultad,train,ejemplo_sintetico_redactado
+"¡Ah, chingá!, no había visto esa opción",0,general,sorpresa,train,ejemplo_sintetico_redactado
+Ese maestro es un cabrón para programar,0,general,elogio,train,ejemplo_sintetico_redactado
+Habla como chachalaca cuando cuenta historias,0,tabasco,descripción,train,ejemplo_sintetico_redactado
+"Me lleva la chingada, olvidé la contraseña",0,general,frustración,train,ejemplo_sintetico_redactado
+El vecino es muy bromista y alegre,0,general,neutro,train,ejemplo_sintetico_redactado
+Me gusta mucho la comida de Tabasco,0,tabasco,neutro,train,ejemplo_sintetico_redactado
+Vamos a visitar el puerto de Veracruz,0,veracruz,neutro,train,ejemplo_sintetico_redactado
+"Ya no hagas iris, mejor conversamos",0,veracruz,coloquial,train,ejemplo_sintetico_redactado
+"La presentación estuvo excelente, felicidades",0,general,elogio,train,ejemplo_sintetico_redactado
+Mi amigo es bien cabrón para las matemáticas,0,general,elogio,train,ejemplo_sintetico_redactado
+Voy por unos tamalitos a la tienda,0,tabasco,neutro,train,ejemplo_sintetico_redactado
+"¿Cómo amaneciste, compadre?",0,general,amistoso,train,ejemplo_sintetico_redactado
+"Qué onda, güey, te extrañaba",0,general,amistoso,train,ejemplo_sintetico_redactado
+Ojalá llegues bien a casa,0,general,amistoso,train,ejemplo_sintetico_redactado
+"Me enojé por el resultado, pero no contigo",0,general,frustración,train,ejemplo_sintetico_redactado
+Estuvo de poca madre la fiesta,0,general,elogio,train,ejemplo_sintetico_redactado
+La palabra pendejo aparece en el diccionario,0,general,mención,train,ejemplo_sintetico_redactado
+Mi abuelo nos contó un chiste jarocho,0,veracruz,neutro,train,ejemplo_sintetico_redactado
+Vamos a platicar sin faltarnos al respeto,0,general,neutro,train,ejemplo_sintetico_redactado
+El sistema no funciona y eso me desespera,0,general,frustración,train,ejemplo_sintetico_redactado
+"Muchas gracias por apoyarme, cabrón",0,general,amistoso,train,ejemplo_sintetico_redactado
+"No seas pendejo, nunca entiendes nada",1,general,insulto,train,ejemplo_sintetico_redactado
+"Vete a la chingada, no te quiero aquí",1,general,insulto,train,ejemplo_sintetico_redactado
+Eres un pinche inútil para este trabajo,1,general,insulto,train,ejemplo_sintetico_redactado
+"Cállate la boca, idiota",1,general,insulto,train,ejemplo_sintetico_redactado
+Eres un estúpido y nadie te soporta,1,general,insulto,train,ejemplo_sintetico_redactado
+"Deja de hablar, pinche imbécil",1,general,insulto,train,ejemplo_sintetico_redactado
+"Tu opinión es una mierda, cállate",1,general,insulto,train,ejemplo_sintetico_redactado
+"Te crees muy chingón, pero eres un fraude",1,general,insulto,train,ejemplo_sintetico_redactado
+"No sirves para nada, cabrón",1,general,insulto,train,ejemplo_sintetico_redactado
+"Lárgate de aquí, pendejo",1,general,insulto,train,ejemplo_sintetico_redactado
+"Hablas como chachalaca, ya cállate, idiota",1,tabasco,descalificación,train,ejemplo_sintetico_redactado
+"No hagas iris, pinche payaso",1,veracruz,insulto,train,ejemplo_sintetico_redactado
+"Contra, qué bruto eres, no sabes nada",1,tabasco,descalificación,train,ejemplo_sintetico_redactado
+Deja tus pendejadas y hazlo bien,1,general,insulto,train,ejemplo_sintetico_redactado
+Qué pinche vergüenza das,1,general,insulto,train,ejemplo_sintetico_redactado
+"No quiero verte, eres una basura",1,general,insulto,train,ejemplo_sintetico_redactado
+"Cierra el hocico, imbécil",1,general,insulto,train,ejemplo_sintetico_redactado
+Eres un maldito mentiroso,1,general,insulto,train,ejemplo_sintetico_redactado
+"Ni siquiera eso puedes hacer, inútil",1,general,insulto,train,ejemplo_sintetico_redactado
+"Qué pedo contigo, pinche idiota",1,general,insulto,train,ejemplo_sintetico_redactado
+"Sólo dices estupideces, cabrón",1,general,insulto,train,ejemplo_sintetico_redactado
+Vete al carajo y no regreses,1,general,insulto,train,ejemplo_sintetico_redactado
+Qué clase de pendejo piensa así,1,general,insulto,train,ejemplo_sintetico_redactado
+Eres un farsante de mierda,1,general,insulto,train,ejemplo_sintetico_redactado
+"Pinche baboso, arruinaste todo",1,general,insulto,train,ejemplo_sintetico_redactado
+"Ya cállate, nadie quiere oírte",1,general,descalificación,train,ejemplo_sintetico_redactado
+"Deja de molestar, maldito necio",1,general,insulto,train,ejemplo_sintetico_redactado
+El único bruto aquí eres tú,1,general,insulto,train,ejemplo_sintetico_redactado
+"No vales nada, imbécil",1,general,insulto,train,ejemplo_sintetico_redactado
+Eres un desgraciado y un cobarde,1,general,insulto,train,ejemplo_sintetico_redactado
+"Qué asco me da tu forma de hablar, idiota",1,general,insulto,train,ejemplo_sintetico_redactado
+"No sabes trabajar, pinche flojo",1,general,insulto,train,ejemplo_sintetico_redactado
+"Ese examen estuvo cabrón, pero pude resolverlo",0,general,dificultad,test,ejemplo_sintetico_redactado
+"Qué onda, cabrón, vamos por un café",0,general,amistoso,test,ejemplo_sintetico_redactado
+"¡Contra!, se me cayó el teléfono",0,tabasco,exclamación,test,ejemplo_sintetico_redactado
+"No hagas iris, ven y siéntate",0,veracruz,coloquial,test,ejemplo_sintetico_redactado
+Qué chingón te quedó el dibujo,0,general,elogio,test,ejemplo_sintetico_redactado
+La charla fue muy agradable,0,general,neutro,test,ejemplo_sintetico_redactado
+No coincido con lo que estás diciendo,0,general,desacuerdo,test,ejemplo_sintetico_redactado
+Voy a comprar guineos para la cena,0,tabasco,neutro,test,ejemplo_sintetico_redactado
+"Pinche pendejo, siempre echas todo a perder",1,general,insulto,test,ejemplo_sintetico_redactado
+Vete a la chingada de una vez,1,general,insulto,test,ejemplo_sintetico_redactado
+"Eres un inútil, no puedes hacer nada",1,general,insulto,test,ejemplo_sintetico_redactado
+"Deja de decir tonterías, imbécil",1,general,insulto,test,ejemplo_sintetico_redactado
+"Hablas como chachalaca, cállate, estúpido",1,tabasco,descalificación,test,ejemplo_sintetico_redactado
+"No hagas iris, idiota, das vergüenza",1,veracruz,insulto,test,ejemplo_sintetico_redactado
+"Cállate ya, pinche baboso",1,general,insulto,test,ejemplo_sintetico_redactado
+"No sirves para esto, maldito flojo",1,general,insulto,test,ejemplo_sintetico_redactado
