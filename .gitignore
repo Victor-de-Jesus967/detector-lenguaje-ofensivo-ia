@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
+data/raw/*
+!data/raw/.gitkeep
+models/*.joblib
+results/*.json
+results/*.png
+# Para desplegar se pueden incluir archivos joblib generados localmente,
+# previa comprobación de origen/seguridad y tamaño:
+!results/metricas.json
+!results/metricas_regionales.json
+!results/matriz_confusion.png
