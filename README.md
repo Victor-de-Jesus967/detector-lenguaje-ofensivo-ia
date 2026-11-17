@@ -53,3 +53,20 @@ python -m unittest discover -s tests -v
 
 ## Alcance
 Prototipo demostrativo académico, no desplegar públicamente sin autenticación, límites de uso y política de tratamiento de datos. No registrar mensajes personales en logs sin autorización. Las métricas no vienen prellenadas: deben obtenerse ejecutando el entrenamiento.
+
+## Extensión experimental: español regional Veracruz y Tabasco
+
+Se añade **un segundo modelo independiente** para español mexicano; **no mezcla** datos con TweetEval (inglés). Los 80 mensajes del archivo `data/regional/ejemplos_piloto.csv` son *ejemplos originales sintéticos de demostración*, no un corpus auténtico de hablantes de Veracruz ni de Tabasco. Las referencias regionales son contextuales y deberán ser revisadas por informantes locales; una frase puede ser vulgar sin constituir ataque.
+
+Entrenamiento y evaluación del nuevo modelo:
+
+```powershell
+python -m src.train_regional
+python -m streamlit run app.py
+```
+
+En Streamlit, selecciona «Español mexicano (piloto Veracruz/Tabasco)». Las métricas se guardan en `results/metricas_regionales.json` y **no deben presentarse como evidencia de generalización a población regional**. El test sintético se mantiene separado durante el ajuste.
+
+Para una investigación seria: recopila un corpus real y consentido, sin nombres/datos personales; define una guía de anotación que distinga insulto dirigido, uso amistoso, intensificador, expresión vulgar no dirigida y cita; obtén anotaciones de al menos dos personas de cada región; calcula acuerdo entre anotadores; separa train/test por fuente o autor; evalúa por región, negación y contexto; documenta sesgos y posibles falsos positivos. No se debe usar el prototipo para sancionar usuarios.
+
+Referencias lingüísticas: Diccionario del español de México (El Colegio de México, https://dem.colmex.mx/); Universidad Juárez Autónoma de Tabasco (https://www.ujat.mx/ddc/5231); recopilación de modismos veracruzanos (El Sol de Córdoba, https://oem.com.mx/elsoldecordoba/tendencias/que-significa-tienes-jiribilla-en-veracruz-el-origen-de-la-gran-frase-dominguera-22336643).
